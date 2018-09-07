@@ -7,7 +7,7 @@
 	"client": {
 		"organization": "Org1MSP",
 		"credentialStore": {
-			"path": "/$HOME/fabric-samples/fabcar/hfc-key-store"
+			"path": "/$HOME/github/hlf-1.2.0/network/ca/hfc-key-store"
 		}
 	},
 	"channels": {
@@ -36,10 +36,10 @@
 				"fabric-ca"
 			],
 			"x-adminCert": {
-				"path": "/$HOME/fabric-samples/basic-network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/admincerts/Admin@org1.example.com-cert.pem"
+				"path": "/$HOME/github/hlf-1.2.0/network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/admincerts/Admin@org1.example.com-cert.pem"
 			},
 			"x-adminKeyStore": {
-				"path": "/$HOME/fabric-samples/basic-network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/"
+				"path": "/$HOME/github/hlf-1.2.0/network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/"
 			}
 		}
 	},
