@@ -134,6 +134,13 @@ node instantiate_chaincode.js
 
 #### 동작 확인
 
+```
+// script의 상위 directory로 이동
+cd ..
+gulp marble_local
+// 상세 내역은 gulpfile.js에 있음
+```
+
 `localhost:3001`에서 확인할 수 있다. 간단한 클라이언트 조작으로 Event(Block Listener, Event Client)를 날려 보자.
 
 <br>
